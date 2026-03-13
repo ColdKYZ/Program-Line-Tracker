@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include "sensor_config.cpp"
 
 // Pin selector MUX
 #define SEL_A  5
