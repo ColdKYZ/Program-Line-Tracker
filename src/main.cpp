@@ -4,9 +4,9 @@
 // ──────────────────────────────────────
 //  PIN
 // ──────────────────────────────────────
-#define SEL_A       5
-#define SEL_B       18
-#define BTN_KALIBR  21
+#define SEL_A       25
+#define SEL_B       26
+#define BTN_KALIBR  27
 
 // ──────────────────────────────────────
 //  VARIABEL SENSOR
