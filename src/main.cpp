@@ -21,31 +21,34 @@ int sensorDigital[JUMLAH_SENSOR];  // 0=putih, 1=hitam
 void bacaSensor() {
   digitalWrite(SEL_A, 0); digitalWrite(SEL_B, 0);
   delayMicroseconds(10);
-  sensor[6]  = analogRead(32);
-  sensor[8]  = analogRead(33);
-  sensor[14] = analogRead(34);
-  sensor[3]  = analogRead(35);
+  sensor[14] = analogRead(32);
+  sensor[3]  = analogRead(33);
+  sensor[6]  = analogRead(34);
+  sensor[8]  = analogRead(35);
+
+
+  
 
   digitalWrite(SEL_A, 1); digitalWrite(SEL_B, 0);
   delayMicroseconds(10);
-  sensor[4]  = analogRead(32);
-  sensor[9]  = analogRead(33);
-  sensor[12] = analogRead(34);
-  sensor[2]  = analogRead(35);
+  sensor[12] = analogRead(32);
+  sensor[2]  = analogRead(33);
+  sensor[4]  = analogRead(34);
+  sensor[9]  = analogRead(35);
 
   digitalWrite(SEL_A, 0); digitalWrite(SEL_B, 1);
   delayMicroseconds(10);
-  sensor[5]  = analogRead(32);
-  sensor[11] = analogRead(33);
-  sensor[13] = analogRead(34);
-  sensor[0]  = analogRead(35);
+  sensor[13] = analogRead(32);
+  sensor[0]  = analogRead(33);
+  sensor[5]  = analogRead(34);
+  sensor[11] = analogRead(35);
 
   digitalWrite(SEL_A, 1); digitalWrite(SEL_B, 1);
   delayMicroseconds(10);
-  sensor[7]  = analogRead(32);
-  sensor[10] = analogRead(33);
-  sensor[15] = analogRead(34);
-  sensor[1]  = analogRead(35);
+  sensor[15] = analogRead(32);
+  sensor[1]  = analogRead(33);
+  sensor[7]  = analogRead(34);
+  sensor[10] = analogRead(35);
 }
 
 
