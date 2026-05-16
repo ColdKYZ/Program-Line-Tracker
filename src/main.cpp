@@ -26,9 +26,6 @@ void bacaSensor() {
   sensor[6]  = analogRead(34);
   sensor[8]  = analogRead(35);
 
-
-  
-
   digitalWrite(SEL_A, 1); digitalWrite(SEL_B, 0);
   delayMicroseconds(10);
   sensor[12] = analogRead(32);
